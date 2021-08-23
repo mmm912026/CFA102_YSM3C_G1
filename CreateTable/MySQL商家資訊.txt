@@ -1,0 +1,9 @@
+CREATE TABLE `STORE_INFORMATION` (
+  `SI_NO`            INT NOT NULL AUTO_INCREMENT COMMENT '編號',
+  `SI_ADDRESS`       varchar(100) DEFAULT NULL COMMENT '門市地址',
+  `SI_OPEN`          varchar(100) DEFAULT NULL COMMENT '營業時間',
+  `SI_PHONE`         varchar(20) DEFAULT NULL COMMENT '連絡電話',
+  `SI_EMAIL`         varchar(20) DEFAULT NULL COMMENT '電子郵件',
+  `SI_LINE`          varchar(20) DEFAULT NULL COMMENT 'LINE資訊',
+  PRIMARY KEY (`SI_NO`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='商家資訊';
