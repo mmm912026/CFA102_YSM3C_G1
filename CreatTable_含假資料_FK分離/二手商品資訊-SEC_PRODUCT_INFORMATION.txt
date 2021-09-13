@@ -1,0 +1,256 @@
+-- 創建Table
+CREATE TABLE `SEC_PRODUCT_INFORMATION` (
+  `SPI_NO` int NOT NULL AUTO_INCREMENT COMMENT '二手商品編號',
+  `SPI_NAME` char(100) DEFAULT NULL COMMENT '二手商品名稱',
+  `SPC_NO` int NOT NULL COMMENT '二手商品類別編號',
+  `SPI_CONTENT` varchar(1000) DEFAULT NULL COMMENT '二手商品內容',
+  `SPI_PRI` int DEFAULT NULL COMMENT '商品價格',
+  `SPI_STOCK` int DEFAULT NULL COMMENT '庫存',
+  `SPI_STA` varchar(20) DEFAULT NULL COMMENT '二手商品狀態',
+  PRIMARY KEY (`SPI_NO`)
+--  KEY `FK_SEC_PRODUCT_INFORMATION_SPC_NO_idx` (`SPC_NO`),
+--  CONSTRAINT `FK_SEC_PRODUCT_INFORMATION_SPC_NO` FOREIGN KEY (`SPC_NO`) REFERENCES `SEC_PRODUCT_CLASS` (`SPC_NO`)
+) COMMENT='二手商品資訊';
+
+-- 加入假資料
+
+-- 類別:1_桌上型電腦
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("HP 400 G7 MT 10代i3 Win10 Pro 商用電腦", 1, 
+	">>已使用時間:15個月
+	>>處理器：Intel Core i3-10100
+	>>晶片組：Intel Q470
+	>>記憶體：(標配)原廠 8G DDR4 (記憶體插槽:2 DIMM)
+	>>儲存裝置：(標配)金士頓A2000 PCIe M.2-500GB (主系統) +原廠1TB
+	>>顯示卡：Intel HD Graphics
+	>>光碟機：DVD-RW
+	>>電　源：260W (80 Plus)", 
+	22900, 2, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ASUS M700TA 10代i3", 1, 
+	">>已使用時間:13個月
+	>>處理器：Intel Core i3-10100
+	>>晶片組：Intel B460
+	>>記憶體：(標配)原廠 8GB DDR4(記憶體插槽:4 DIMM)
+	>>儲存裝置：金士頓A2000 PCIe M.2-500GB (主系統) + 原廠1TB
+	>>顯示卡：Intel HD Graphics
+	>>光碟機：DVD-RW
+	>>電　源：300W (80 Plus)", 
+	24500, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ACER VS4660G 商用電腦", 1, 
+	">>已使用時間:10個月
+	>>處理器：Intel Core i5-9400
+	>>主機板晶片組：B360
+	>>記憶體：8G+8GB=16GB DDR4
+	>>硬碟：1TB SSD
+	>>作業系統：Windows 10 Pro 中文專業版
+	>>螢幕輸出介面：D-Sub(VGA)．HDMI．DP
+	>>鍵鼠組：有線鍵鼠組
+	>>電源供應 : 250W single-rail 80PLUS 電源供應器", 
+	19900, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ACER VM6670G 10代商用電腦", 1, 
+">>已使用時間:5個月
+>>處理器：Intel Core i7-10700 8C/16T (2.90/4.80 GHz)
+>>主機板晶片組：Intel Q470 Chipset
+>>螢幕輸出介面：D-Sub(VGA)．HDMI．DisplayPort
+>>記憶體：已加裝非原廠16G DDR4(三年保固 特仕升級)
+>>固態硬碟：已加裝非原廠960G SSD(三年保固 特仕升級)
+>>傳統硬碟：1TB HDD
+>>顯示卡：IntelR UHD Graphics 630
+>>光碟機：DVD燒錄機
+>>作業系統：Windows 10 Pro 64bit
+>>鍵鼠組：有線鍵鼠組
+>>保固：三年保固
+>>電源供應：300W(80PLUS)", 
+	34900, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("華碩B550平台 R7八核RTX3060電競水冷電腦", 1, 
+">>已使用時間:18個月
+>>AMD Ryzen7 5800X 八核心處理器
+>>華碩 ROG STRIX LC 240 RGB - 白 一體式水冷
+>>華碩 TUF GAMING B550M-PLUS 主機板
+>>華碩 DUAL RTX3060-12G V2 顯示卡 (限制算力但效能不變)
+>>D4/3200 32GB(16GB*2)
+>>500G M.2 PCIe SSD
+>>華碩 TUF Gaming GT501 White Edition 電競機殼
+>>德隆 Montech GAMMA II 650W 金牌 電源供應器", 
+	53990, 2, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ASUS ROG 華碩 G20 電競電腦", 1, 
+">>已使用時間:9個月
+>>處理器C PU Intel Core i7-7700 Processor, 3.6GHz (8M Cache, up to 4.2 GHz)
+>>記憶體 DDR4 2400MHz 16G
+>>顯示卡 / 繪圖支援 NVIDIA GeForce GTX1070 8GB D5
+>>硬碟 2TB SATA + 256GB M.2 SATA3 SSD
+>>光碟機 SuperMulti DVD RW
+>>無線網路 LAN/WiFi + BT4.1
+>>作業系統 64 Bits Windows 10", 
+	54999, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("華碩B550平台 R9十六核RTX3060電競水冷電腦", 1, 
+">>已使用時間:3個月
+>>AMD Ryzen9 5950X 十六核心處理器
+>>華碩 ROG STRIX LC II 240 ARGB 一體式水冷
+>>華碩 TUF GAMING B550M-PLUS 主機板
+>>華碩 DUAL RTX3060-12G V2 顯示卡 (限制算力但效能不變)
+>>D4/3200 32GB(16GB*2)
+>>2TB M.2 PCIe SSD
+>>華碩 TUF Gaming GT501 電競機殼
+>>德隆 Montech GAMMA II 650W 金牌 電源供應器", 
+	75888, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("華碩系列-小資十代7號機", 1, 
+">>已使用時間:20個月
+>>處理器：Intel Core i7-10700 八核心
+>>主機板：華碩 PRIME B460M-A
+>>記憶體：DDR4 8G（2組）
+>>固態硬碟：金士頓 A400 480G SSD
+>電源供應器：松聖 duke-M450
+>>電腦機殼：TrendSonic 雷霸龍C1 M-ATX 黑", 
+	17600, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ASUS ProArt X HUAN", 1, 
+">>已使用時間:15個月
+>>AMD Ryzen5 5600X 六核心處理器
+>>華碩 TUF Gaming LC 240 ARGB 一體式水冷
+>>華碩 ProArt B550 Creator 主機板
+>>華碩 DUAL RTX3060-12G V2 顯示卡 (限制算力但效能不變)
+>>十銓T-CREATE CLASSIC DDR4 10L-3200 32GB(16GB*2)
+>>威剛 SX8200 PRO 1TB M.2 PCIe SSD
+>>華碩 TUF Gaming GT501 White Edition 電競機殼
+>>華碩 TUF Gaming 750B 銅牌 電源供應器", 
+	52900, 2, "上架");	
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ASUS 華碩 Mini PC PN50-B5256ZV 迷你電腦", 1, 
+">>已使用時間:9個月
+>>採用最新 AMD Ryzen? 4000 系列 Renoir 行動處理器與 Radeon? Vega 7 顯示晶片
+>>最多支援同時使用 4 部 4K 解析度顯示器
+>>最高可透過 DisplayPort Dual-Mode (DP++) 支援 8K UHD 60Hz
+>>雙 USB 3.2 Gen 2 Type-C 連接埠提供資料傳輸、電源供應及 DisplayPort 功能
+>>Microsoft Cortana 支援雙陣列正面麥克風
+>>紅外線 (IR) 接收器可供遙控應用程式", 
+	20900, 1, "上架");		
+	
+-- 類別:2_筆記型電腦
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ACER SP513-55N-72ZL 全新11代翻轉觸控", 2, 
+">>已使用時間:15個月
+>>處理器：Intel core i7-1165G7
+>>記憶體：16GB LPDDR4
+>>硬碟：512GB PCIe SSD
+>>螢幕：13.5 QHD/鏡面/LED背光/IPS/觸控/3:2
+>>無線網路：802.11a/b/g/n/acR2+ax/2x2 MU-MIMO
+>>其他：USB3.0、HDMI、Type-C
+>>軟體：Windows 10 Home", 
+	35900, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("MSI微星 Pulse GL76 11UEK-010TW 電競筆電", 2, 
+">>已使用時間:5個月
+>>處理器：Intel 第11代 Core i7-11800H 八核心處理器
+>>主機板晶片組：Intel HM570
+>>記憶體：16GB (8G*2) DDR4-3200
+>>顯示晶片規格：GeForce RTX 3060 筆記型電腦GPU 6GB GDDR6
+>>固態硬碟：1TB M.2 NVMe PCIe SSD
+>>光碟機：無,請另購外接式光碟機
+>>作業系統：Windows 10 Home
+>>尺寸:17.3
+>>電池供應：53 Battery (Whr)
+>>變壓器：180W adapter", 
+	50900, 2, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ASUS B5302FEA-0071A1135G7", 2, 
+">>已使用時間:16個月
+>>螢幕：13.3 霧面IPS FHD touch sRGB100%
+>>處理器：IntelR Core? i5-1135G7 2.4 GHz
+>>記憶體：16G DDR4 on board
+>>硬碟：512GB M.2 NVMe? PCIeR 3.0 SSD
+>>網路：Wi-Fi 6(802.11ax)+c
+>>重量：1.3KG含電池
+>>特色：含背光KB、Thunderbolt? 4、HDMI
+>>作業系統：Win10 Pro 64 bits", 
+	38800, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("MSI微星 Katana GF76 11SC-024TW 電競筆電", 2, 
+">>已使用時間:5個月
+>>處理器：Intel 第11代 Core i7-11800H 八核心處理器
+>>主機板晶片組：Intel HM570
+>>記憶體：8GB(8G*1) DDR4-3200,最大可擴充至64GB
+>>顯示晶片規格：GeForce GTX 1650筆記型電腦GPU 4GB GDDR6
+>>硬碟：512GB M.2 PCIe SSD
+>>作業系統：Windows 10 Home
+>>尺寸:17.3
+>>電池供應 : 53.5 Battery (Whr)
+>>變壓器 : 150瓦", 
+	34900, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ASUS X415JA-0361G1035G1 星空灰", 2, 
+">>已使用時間:7個月
+>>LCD尺寸：14.0’//LED Backlit//250nits//FHD IPS (1920 x 1080) 16:9
+>>處理器：IntelR Core? i5-1035G1 Processor 1.0 GHz)
+>>記憶體：DDR4 8GB*1 (1 slot/Max 16G)
+>>硬碟：512GB M.2 NVMe? PCIeR 3.0 SSD
+>>無線網路：Wi-Fi 5(802.11ac)+Bluetooth 4.1 (Dual band) 1*1
+>>重量：1.6kg
+>>其他：HDMI、USB3.2 Type C
+>>作業系統：Windows 10 Home 64 Bits", 
+	21900, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ASUS FA506IC-0032A4800H 幻影灰", 2, 
+">>已使用時間:3個月
+>>處理器：AMD Ryzen? 7 4800H Processor 2.9 GHz
+>>記憶體：8GB DDR4-3200 SO-DIMM
+>>硬碟：512GB M.2 NVMe? PCIeR 3.0 SSD
+>>獨立顯卡：NVIDIAR GeForce RTX? 3050 4GB GDDR6
+>>螢幕：15.6 FHD IPS 1920x1080 薄邊框螢幕
+>>無線網路：Wi-Fi 6(802.11ax)+Bluetooth 5.1 (Dual band) 2*2
+>>介面：HDMI、Type-C USB 3.2
+>>電池：48WHrs, 3S1P, 3-cell Li-ion
+>>重量：2.3 KG
+>>厚度：2.43cm
+>>作業系統：Windows 10 (64bit)", 
+	30900, 2, "上架");
+	
+
+	
+-- 類別:3_CPU-處理器
+-- 類別:4_RAM記憶體
+-- 類別:5_HDD-傳統硬碟
+-- 類別:6_SSD-固態硬碟
+-- 類別:7_電源供應器
+-- 類別:8_顯示卡
+-- 類別:9_其他
+-- 加入FK
+alter table `SEC_PRODUCT_INFORMATION` add constraint `FK_SEC_PRODUCT_INFORMATION_SPC_NO` foreign key(`SPC_NO`)
+    references `SEC_PRODUCT_CLASS`(`SPC_NO`);
