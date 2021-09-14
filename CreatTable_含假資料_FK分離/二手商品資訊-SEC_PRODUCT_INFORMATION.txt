@@ -242,15 +242,463 @@ VALUES ("ASUS FA506IC-0032A4800H 幻影灰", 2,
 >>作業系統：Windows 10 (64bit)", 
 	30900, 2, "上架");
 	
-
-	
 -- 類別:3_CPU-處理器
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Intel Core i5-10400F 中央處理器", 3, 
+">>已使用時間:2個月
+>>腳位：1200
+>>時脈速度：2.90-4.30 GHz
+>>核心/執行緒：6 / 12
+>>TDP：65 W", 
+	4999, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("AMD Ryzen 5-5600X 3.7GHz 6核心 中央處理器", 3, 
+">>已使用時間:1個月
+>>CPU 核心數: 6
+>>基本時脈速度: 3.7GHz
+>>最大渦輪核心速度: 4.6GH", 
+	9470, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Intel Core i7-11700 中央處理器", 3, 
+">>已使用時間:20個月
+>>腳位：1200
+>>時脈速度：2.50-4.90 GHz
+>>核心/執行緒：8 / 16
+>>TDP：65 W", 
+	10299, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("AMD Ryzen 7-5800X 3.8GHz 8核心 中央處理器", 3, 
+">>已使用時間:15個月
+>>CPU 核心數: 8
+>>基本時脈速度: 3.8GHz
+>>最大渦輪核心速度: 4.7GH", 
+	13970, 1, "下架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("AMD Ryzen 9-5950X 3.4GHz 16核心 中央處理器", 3, 
+">>已使用時間:5個月
+>>CPU 核心數: 16
+>>基本時脈速度: 3.4GHz
+>>最大渦輪核心速度: 4.9GH
+>>無風扇", 
+	25870, 2, "下架");	
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Intel Core i9-10980XE 中央處理器", 3, 
+">>已使用時間:8個月
+>>腳位：2066
+>>時脈速度：3.00-4.60 GHz
+>>核心/執行緒：18 / 36
+>>TDP：165 W", 
+	30499, 2, "上架");	
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("AMD Ryzen 9 3900X 12-core, 24執行續 12核心 中央處理器", 3, 
+">>>>已使用時間:25個月
+>>CPU 核心數:12
+>>執行緒數:24
+>>基本時脈:3.8GHz
+>>最大超頻時脈:4.6GHz", 
+	15188, 1, "上架");	
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("AMD Ryzen 5 5600G 桌上型電腦處理器", 3, 
+">>已使用時間:8個月
+>>CPU 核心數: 6
+>>基本時脈速度: 3.9GHz
+>>最大渦輪核心速度: 4.4GH", 
+	8890, 1, "上架");	
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("INTEL PentiumR Gold G6405 處理器", 3, 
+">>已使用時間:3個月
+>>腳位：1200
+>>時脈速度：1.05-4.00 GHz
+>>核心/執行緒：2 / 4
+>>TDP：58 W", 
+	2188, 1, "上架");	
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Intel i5-10400【6核/12緒】2.9GHz", 3, 
+">>已使用時間:5個月
+>>腳位：1200
+>>基礎頻率：2.90 GHz
+>>快取記憶體：12 MB
+>>核心/執行緒: 6 / 12
+>>TDP：65 W", 
+	6490, 1, "上架");
+	
 -- 類別:4_RAM記憶體
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("KLEVV 科賦 CRAS XR RGB DDR4 4266 16GB(8Gx2) 桌上型", 4,
+">>已使用時間:15個月
+>>Hynix原廠顆粒
+>>1.4V電壓
+>>CL值 19-26-26-46", 
+	3959, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("金士頓 Kingston FURY Beast 獸獵者 DDR4 3600 16GB(8GBx2)", 4,
+">>已使用時間:5個月
+>>支援Intel XMP 設定檔
+>>相容於 AMD Ryzen 處理器
+>>1.2V,1.35V 低電耗
+>>隨插即用 自動超頻", 
+	2370, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("【Transcend 創見】 32GB JetRam DDR4 3200 桌上型記憶體", 4,
+">>已使用時間:8個月
+>>規格 : DDR4-3200MHz 
+>>容量 : 32GB 
+>>Rank : 2Rx8
+>>DRAM : 2Gx8
+>>工作電壓 : 1.2V", 
+	3599, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("【Transcend 創見】8GB JetRam DDR4 2666 桌上型記憶體", 4,
+">>已使用時間:9個月
+>>桌上型專用Long-DIMM
+>>規格 : DDR4-2666MHz
+>>容量 : 8GB
+>>Rank : 1Rx8
+>>DRAM : 1Gx8
+>>工作電壓 : 1.2V", 
+	949, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Team 十銓 ELITE DDR4 2666 16GB CL19 桌上型記憶體", 4,
+">>已使用時間:3個月
+>>DRAM模組全新世代的產品
+>>1.2 V電壓記憶體模組
+>>大容量32GB Kit", 
+	1588, 1, "上架");
+	
 -- 類別:5_HDD-傳統硬碟
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Seagate【BarraCuda】1TB 3.5吋桌上型硬碟", 5,
+">>已使用時間:15個月
+>>容量:1TB
+>>SATA 6Gb/s
+>>7200轉速
+>>64MB緩衝記憶體
+>>MTC多層快取技術，資料流讀寫最佳化
+>>8*5日常工作負載讀+寫55TB/年", 
+	1390, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("WD [藍標] 1TB 3.5吋桌上型硬碟", 5,
+">>已使用時間:5個月
+>>容量：1TB
+>>高相容度．在各種系統及平台可以發揮最高效能
+>>No Touch磁碟表面停放技術．降低讀寫時磁頭的磨損
+>>硬碟輕鬆升級．不需重新安裝作業系統", 
+	1390, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Seagate【BarraCuda】8TB 3.5吋桌上型硬碟", 5,
+">>已使用時間:13個月
+>>容量：8TB
+>>SATA 6Gb/s
+>>5400轉速
+>>256MB緩衝記憶體
+>>MTC多層快取技術，資料流讀寫最佳化
+>>8*5日常工作負載讀+寫55TB/年", 
+	5590, 1, "下架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Seagate【BarraCuda】2TB 3.5吋桌上型硬碟", 5,
+">>已使用時間:15個月
+>>容量：2TB
+>>SATA 6Gb/s
+>>7200轉速
+>>256MB緩衝記憶體
+>>MTC多層快取技術，資料流讀寫最佳化
+>>8*5日常工作負載讀+寫55TB/年", 
+	1890, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Toshiba【桌上型】1TB 3.5吋硬碟", 5,
+">>已使用時間:5個月
+>>7,200 RPM
+>>先進格式4K磁區配置
+>>糾正錯誤碼功能
+>>低電耗運作
+>>環保無鹵素設計", 
+	1390, 1, "上架");
+
 -- 類別:6_SSD-固態硬碟
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("技嘉AORUS 7000s 2TB Gen4x4 PCIe SSD固態硬碟", 6,
+">>已使用時間:6個月
+>>規格尺寸: M.2 2280
+>>傳輸介面: PCI-Express 4.0 x4, NVMe 1.4
+>>容量:2TB
+>>連續讀取速度:最高達7000 MB/s**
+>>連續寫入速度:最高達6850 MB/s**
+>>採用群聯 PHISON 新的 PS5018-E18 主控晶片，內建 Arm Cortex-R5 核心，支援 NVMe 1.4 協議，8通道設計
+>>採用7mm鋁合金散熱片及背板並搭配高導熱性散熱墊", 
+	10090, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("WD 藍標SN550 1TB SSD PCIe NVMe固態硬碟", 6,
+">>已使用時間:8個月
+>>讀2400M/寫1950M
+>>M.2 2280 PCIe Gen3 x4 NVMe SSD
+>>80mm x 22mm x 2.38mm
+>>Western Digital設計的控制器和韌體，搭配最新的 3D NAND", 
+	2990, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("WD SSD 500GB 2.5吋 3D NAND固態硬碟", 6,
+">>已使用時間:15個月
+>>讀560M/寫530M/TLC
+>>連續讀取560MB/s，連讀寫入530MB/s
+>>發揮系統極致效能
+>>耐用性高達200TBW
+>>經過WD F.I.T. Lab 高度相容認證", 
+	1870, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("WD SSD 1TB 2.5吋 3D NAND固態硬碟", 6,
+">>已使用時間:6個月
+>>讀560M/寫530M/TLC
+>>連續讀取560MB/s，連讀寫入530MB/s
+>>發揮系統極致效能
+>>持久率高達400TBW
+>>經過WD F.I.T. Lab 高度相容認證", 
+	3350, 2, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("WD 黑標 SN750 500GB NVMe PCIe SSD固態硬碟", 6,
+">>已使用時間:3個月
+>>讀3470M/寫2600M
+>>連續讀取3470MB/s，連讀寫入2600MB/s
+>>發揮系統極致效能
+>>介面 M.2 2280*, PCIe Gen3 8 Gb/s，最多 4 個通道", 
+	2280, 1, "下架");
+	
 -- 類別:7_電源供應器
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("EVGA 艾維克 550 GM 80 PLUS 金牌 SFX 電源供應器", 7,
+">>已使用時間:6個月
+>>專為小體積機殼而生的 SFX 電源供應器
+>>全新金牌全模組 DC - DC 架構 、日系電容用料
+>>內含 SFX 轉 ATX 轉接架，機殼支援度更廣
+>>長效耐久 92mm 雙滾珠軸承風扇
+>>EVGA 自動 ECO 模式, 輕載運作時安靜無聲", 
+	2190, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("全漢 HA350 聖武士 350W 80 Plus銅牌 電源供應器", 7,
+">>已使用時間:15個月
+>>符合最新ATX12 V2.4以及EPS12 V2.92標準
+>>超過85%高效率轉換率
+>>內建主動式 PFC 環保省電設計(PFC≧0.99)
+>>通過80 Plus R銅牌認證標準
+>>DC-DC電路設計，電力穩定輸出
+>>+12V單路電力輸出設計
+>>全日系工業等級電解電容
+>>操作溫度40°C下達足瓦額定功率
+>>溫控長效安靜120mm風扇
+>>多重保護機制：OCP、OVP 、 SCP 、 OPP 、 OTP", 
+	1050, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ASUS 華碩 ROG STRIX 1000G 1000W 金牌 電源供應器", 7,
+">>已使用時間:8個月
+>>ROG 散熱片 覆蓋關鍵組件，確保低溫並降低噪音。
+>>軸向式風扇設計 採用更細長的扇葉和獨特的環形密封環，以增加向下的氣壓。?
+>>雙滾珠軸承設計 使用壽命是油封軸承設計的兩倍。
+>>0dB 技術 可讓您在相對較安靜的環境中享受輕量的遊戲。
+>>80 Plus Gold 金牌認證 是採用日製電容器及其他頂級組件的成果。
+>>客製化風格 可透過磁吸式標誌與貼紙打造專屬PSU造型。?
+>>全模組化線材 使裝置整齊俐落。", 
+	5890, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("振華Leadex platinum 1000W SE 電源供應器", 7,
+">>已使用時間:15個月
+>>型號 SF-1000F14MP v1.0
+>>實際瓦數 1000W
+>>轉換效率 負載20%: 91% ; 負載50%: 92% ;負載100%: 91%
+>>Intel 電源設計規範 EPS 2.92版
+>>對應CPU 支援最新Intel 與 AMD 全系列晶片組
+>>電壓 全電壓設計(100~250V) / 具備主動式功率校正因素裝置(APFC)
+>>外 觀 六角蜂巢式散熱孔, 高效率對流設計
+>>風 扇 規 格 14公分 大型智慧溫控靜音風扇
+>>本 體 尺 寸 180mm(L) x 150mm(W) x 86mm(H)", 
+	5790, 1, "下架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("華碩 ROG-THOR-1200P 電源供應器", 7,
+">>已使用時間:8個月
+>>Aura Sync：進階的燈效同步自訂功能，包括定址式 RGB LED 與 Aura Sync 相容性
+>>OLED 顯示面板： 透過 OLED 顯示面板，即時監測功耗
+>>ROG 散熱解決方案： 配備通過防塵 IP5X 認證的翼型葉片風扇與 ROG 散熱片設計，散熱時依然安靜無聲
+>>80 PLUS 白金級： 內建 100% 日本製電容及頂級組件
+>>套線： 組裝簡單且極致美觀", 
+	10090, 1, "上架");
+
 -- 類別:8_顯示卡
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("ZOTAC GeForceGTX 1050 Ti Mini 顯示卡", 8,
+">>已使用時間:6個月
+>>顯示晶片 ：NVIDIA GeForce GTX 1050 Ti
+>>記憶體 ：4GB GDDR5
+>>CUDA數 ：768
+>>核心時脈 ：1303 MHz
+>>記憶體時脈：7 GHz
+>>記憶體介面：128-bit
+>>輸出端子 ：DP / HDMI / DVI
+>>體積(長x寬x高)：14.478 x 11.115 cm", 
+	5090, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("PNY GeForce GTX 1650 4GB GDDR6 顯示卡", 8,
+">>已使用時間:7個月
+>>顯示晶片 ：NVIDIA GeForce GTX 1650
+>>記憶體 ：4GB GDDR6
+>>CUDA數 ：1410
+>>記憶體時脈：1590MHz
+>>記憶體介面：128-bit
+>>輸出端子 ：1x DP / 1x HDMI / 1x DVI-D
+>>體積(長x寬x高)：40.9x157.9x124.9mm", 
+	6990, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("技嘉AORUS Radeon RX 6900 XT XTREME WATERFORCE WB 16G 顯示卡", 8,
+">>已使用時間:3個月
+>>顯示晶片 ：Radeon? RX 6900 XT
+>>記憶體 ：16GB GDDR6
+>>多螢幕支援 : 4
+>>電源接口：3*8pin
+>>輸 出 ：DisplayPort 1.4a *2 HDMI 2.1 *2
+>>顯卡長度：28.2 x 14.6 x 2.8 cm", 
+	50000, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("微星MSI GT 1030 AERO 2GD4 OCV1 PCI-E顯示卡", 8,
+">>已使用時間:7個月
+>>Boost Clock / Base Clock
+>>1430 MHz / 1189 MHz
+>>2GB DDR4 / 2100 MHz Memory", 
+	3390, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("微星 GeForce GTX 1050 Ti AERO 4G OCV1 顯示卡", 8,
+">>已使用時間:3個月
+>>顯示晶片：NVIDIA GeForce GTX 1050 Ti
+>>記憶體：4GB GDDR5
+>>記憶體時脈：7008 MHz
+>>記憶體介面：128-bit
+>>介面規格：PCI-E 3.0x16
+>>輸出端子：DP / HDMI / DL-DVI-D
+>>體積(長x寬x高)：170 x 111 x 39 mm", 
+	6589, 1, "上架");
+	
 -- 類別:9_其他
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("羅技 ERGO K860 人體工學鍵盤", 9,
+">>已使用時間:6個月
+>>人體工學設計，減少壓力 、提高手腕支撐
+>>弧形設計、三層手托，使輸入姿勢更自然舒適
+>>可調整支架傾斜角度，在 0°、-4°、-7°間自由變換
+>>雙重連線，支援藍牙及Unifying? 技術
+>>最高配對 3 台裝置，裝置間輕鬆切換", 
+	3490, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("羅技 G502 Hero 高效能電競滑鼠", 9,
+">>已使用時間:15個月
+>>HERO 25K 感應器
+>>11 個可自訂按鈕
+>>可調校配重砝碼
+>>LIGHTSYNC RGB", 
+	1290, 1, "下架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("羅技 G813 RGB機械式短軸遊戲鍵盤-青軸", 9,
+">>已使用時間:20個月
+>>低平鍵帽、纖薄外型、鋁合金上蓋
+>>USB 2.0 轉接埠
+>>約1680萬色 LIGHTSYNC RGB
+>>多媒體控制快捷鍵設計", 
+	3999, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Razer Pro Type 無線鍵盤 白色 - 機械橘軸", 9,
+">>已使用時間:12個月
+>>雷蛇機械橘軸
+>>無線/藍牙雙模
+>>最多支援4台裝置", 
+	3890, 1, "上架");
+	
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("羅技 K270 無線鍵盤", 9,
+">>已使用時間:8個月
+>>已使用時間:16個月
+>>全尺寸鍵盤搭配超薄邊框
+>>配備八個多媒體Multimedia功能鍵
+>>省電設計
+>>2.4GHz無線連線", 
+	599, 1, "上架");
+
+INSERT INTO `SEC_PRODUCT_INFORMATION`
+(`SPI_NAME`, `SPC_NO`, `SPI_CONTENT`, `SPI_PRI`, `SPI_STOCK`, `SPI_STA`)
+VALUES ("Razer 黑寡婦蜘幻彩版鍵盤 V3--黃軸", 9,
+">>已使用時間:30個月
+>>Razer 機械式綠軸
+>>雙射出成型ABS鍵帽
+>>內建記憶體外加雲端的混合式儲存設定
+>>全區無衝突防鬼鍵設計
+>>多元佈線選項", 
+	2888, 1, "上架");
+	
 -- 加入FK
 alter table `SEC_PRODUCT_INFORMATION` add constraint `FK_SEC_PRODUCT_INFORMATION_SPC_NO` foreign key(`SPC_NO`)
     references `SEC_PRODUCT_CLASS`(`SPC_NO`);
