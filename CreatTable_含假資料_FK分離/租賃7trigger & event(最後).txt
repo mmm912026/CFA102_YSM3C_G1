@@ -1,0 +1,13 @@
+-- 用RentalProductList 有幾個商品狀態是待租   去更新  RentalClass 庫存
+Delimiter //
+CREATE DEFINER = CURRENT_USER TRIGGER `RENTAL_PRODUCT_LIST_AFTER_UPDATE` AFTER UPDATE ON `RENTAL_PRODUCT_LIST` FOR EACH ROW
+BEGIN
+	update rental_class rc, (select rc.rc_no,count(if(rpl.rpl_status='待租',1,null)) storage
+	from rental_class rc
+	left join RENTAL_PRODUCT_LIST rpl on rc.rc_no = rpl.rc_no
+	group by rc.rc_no) temp
+	set rc.rc_storage = temp.storage
+	where rc.rc_no = temp.rc_no;
+END
+//
+Delimiter ;
